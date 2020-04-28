@@ -29,7 +29,7 @@ resource "aws_security_group" "capstone-simple-secgroup" {
 
 # This is just for introductory concepts. I would not do this for production or shared projects
 resource "aws_key_pair" "capstone-key-pair" {
-  key_name = "CapstoneIndentity.pem"
+  key_name = "CapstoneIndentity"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC4cF7vD3LqmJrrwsRseh8NVdYv7qeRlvSVDHtinVmo8kUI7q8SvSGynqoZidRQzTbrnUEbnjnCOx+/6raQKMrtdQPGkAg3X5xUVUArvWjJ+Dy6GUmcK+GJZaF9fGiGO1Ep6dOVr6BlksbOZjHJDzLnJuJnSs4JgJFafw3scGVUV/8W4oQLq1DYaCMaqOgFkrcJPi0GbfEga9LLsQ+DWjOG+SpYscLc8ShVrEazro6BQMcWiwpQXS3hZ1C55bYtNNkY7//quTFj5BOHPGKT7IHTbYegjALf15Gk+d9UvTs2eWar8qY38XvRTmZD5CXwVYiY+9b5HiJJpKfK6wvnPJMo+PtQziX6u3P7uha+uXDXBESEZh8hFWv4sddtV/qCu+wN3C7d2mQXUAkDBcq0an3gZ/3lE5OVJP6mIT2PduuH4pKZwRPo3qxtkEgHIxfOj7ETMYdYIHeL0ZTc7ac6Yn7enXFqTV7mgOiiBymsC1Mko2X2nWB9tebuH2zXuYgL9YDrfo+AD1E0o4aTgfSozTcnYAVtg1e3SEsE5nbiKIxkN74YtmDiKjnjSMXE1H0+8n982U9WYnN9t1UpHoIubhwc4irEX0dbeUiKK6qovu+lVgWSYmUOHEJHvBfNXwIMxRivw6hmX/n5T7XyY75lkn+WiPLVIenVXX7+PngkguaptQ== capstone-identity"
 }
 
